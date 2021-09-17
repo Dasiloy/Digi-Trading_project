@@ -1,0 +1,96 @@
+.exchangeMore {
+    position: relative;
+    & h5 {
+        & span {
+            color: #e1ad07;
+        }
+    }
+
+    & p {
+        color: rgba(182, 185, 191, 0.75);
+        text-align: left;
+        text-transform: capitalize;
+        font-size: 0.89rem;
+    }
+    align-items: center;
+    & .exchangeFooter {
+        display: flex;
+        min-height: 120px;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: space-between;
+        & .footerDetails {
+            margin-bottom: auto;
+            font-size: 0.85rem;
+            color: rgba(182, 185, 191, 0.75);
+            & .icons {
+                margin-right: 8px;
+            }
+            & div {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+    }
+
+    & .footerExtra {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+        z-index: 222;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        & div {
+            margin-left: 3px;
+        }
+    }
+}
+
+.dark {
+    opacity: 0.5;
+    text-align: right;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: 105px;
+}
+
+@media screen and (max-width: 530px) {
+    .footerExtra {
+        position: relative !important;
+        margin-top: 12px;
+        z-index: 222;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        & div {
+            margin-left: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footerExtra {
+        position: absolute;
+        right: -200px;
+        bottom: 2px;
+        z-index: 222;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & div {
+            margin-left: 12px;
+        }
+    }
+
+    .dark {
+        opacity: 0.5;
+        text-align: right;
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+}

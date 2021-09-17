@@ -1,0 +1,32 @@
+.Extra {
+    text-align: center;
+    & h5 {
+        text-transform: uppercase;
+    }
+    & h6 {
+        text-transform: capitalize;
+        font-size: 0.85rem;
+    }
+    & p {
+        text-transform: capitalize;
+        font-size: 0.8rem;
+        color: #b6b9bf;
+    }
+    & .Enable {
+        display: block;
+        background: #e1ad07;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+        transition: all 0.5s;
+    }
+}
+
+.Enable:hover {
+    color: #fff;
+    background-color: #b99212;
+}

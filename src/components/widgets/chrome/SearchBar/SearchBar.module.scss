@@ -1,0 +1,26 @@
+.searchInput {
+    width: 100%;
+    background: #171a1f;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    height: 80px;
+    position: relative;
+
+    & > input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        font-size: 24px;
+        color: #ffffff;
+        padding: 10px 10px 10px 80px;
+    }
+
+    & .searchInputIcon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 25px;
+    }
+}

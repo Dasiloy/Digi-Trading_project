@@ -1,0 +1,116 @@
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.end {
+    margin-left: auto;
+    button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.body {
+    font-size: 0.89rem;
+    color: #b6b9bf;
+
+    & .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        min-height: 30px;
+        & .single {
+            display: flex;
+            min-height: 30px;
+            align-items: center;
+            & div {
+                margin-bottom: 7px;
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+.adjust {
+    margin-top: 4.9px;
+    color: #fff;
+}
+
+
+
+.animateRefresh {
+    margin-left: 12px;
+    font-size: 2.4rem;
+    animation: animate-preloader 1s linear 2;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacing {
+    margin-left: 10px;
+}
+
+.progressContainer {
+    width: 100%;
+    background: #1e232b;
+    height: 15px;
+    border-radius: 10px;
+    & .progressBar {
+        width: 80%;
+        height: 100%;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #f0b90b 0%, #957908 100%);
+    }
+}
+
+.progressInfo {
+    font-size: 0.80rem;
+    display: flex;
+    justify-content: space-between;
+    & .yellow {
+        color: #e1ad07;
+    }
+}
+
+.btn {
+    background: #191c22;
+    border: 1px solid #e1ad07;
+    border-radius: 10px;
+    outline: none;
+    color: #e1ad07;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #bb930e;
+}
+
+@media screen and (max-width: 768px) {
+    .refresh {
+        font-size: 1rem;
+    }
+    .refresh {
+        margin-left: 2px;
+    }
+    .adjust {
+        margin-top: 2px;
+    }
+}

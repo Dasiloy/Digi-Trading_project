@@ -1,0 +1,36 @@
+.convertExtra {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.convertButton {
+    display: flex;
+    color: #f0b90b;
+    justify-content: center;
+    min-height: 35px;
+    font-size: 1.4rem;
+    align-items: center;
+    & button {
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #f0b90b;
+        text-align: center;
+    }
+}
+
+.convertButtonBack {
+    display: flex;
+    color: #f0b90b;
+    justify-content: space-between;
+    min-height: 35px;
+    font-size: 1.7rem;
+    align-items: center;
+    & button {
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #f0b90b;
+        text-align: center;
+    }
+}

@@ -1,0 +1,50 @@
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.arrowBox {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #f8d12f;
+}
+
+@media screen and (max-width: 768px) {
+    .arrowBox {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.confirmDetails {
+    text-align: center;
+    & .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+    }
+    & h4,
+    h3 {
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+    & p {
+        color: rgb(185, 177, 177);
+        font-size: 0.9rem;
+    }
+    & span {
+        color: #f8d12f;
+    }
+}

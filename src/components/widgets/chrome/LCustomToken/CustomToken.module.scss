@@ -1,0 +1,40 @@
+.tokenBody {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    text-align: center;
+    & .tokenTitle {
+        font-weight: bolder;
+        text-transform: capitalize;
+        color: #c2baba;
+    }
+    & .tokenDetails {
+        color: rgb(148, 143, 143);
+        font-size: 0.9rem;
+        text-transform: capitalize;
+        margin-top: 8px;
+    }
+    & .tokenDetailsGreen {
+        color: #07e403;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        margin-top: 8px;
+    }
+}
+
+.tokenFooterCenter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    border-top: 0.1px solid rgb(148, 145, 145);
+}
+
+.tokenFooterBetween {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 0.1px solid rgb(148, 145, 145);
+}

@@ -1,0 +1,64 @@
+@keyframes AnimateModal {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.modalOverlay {
+    background: #191c22f2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    z-index: 99;
+    visibility: visible;
+    & .modalContent {
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        min-width: 50vw;
+        min-height: 50vh;
+        text-align: center;
+        padding: 20px 10px 60px 10px;
+        position: relative;
+        background: #1f2630;
+        animation-name: AnimateModal;
+        animation-duration: 0.5s;
+        & p {
+            text-transform: capitalize;
+            font-size: 0.9rem;
+        }
+        & button {
+            display: block;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #fff;
+            font-size: 0.95rem;
+            margin: auto;
+        }
+        & .sms {
+            background: #191c22;
+            padding: 6px 5px;
+            color: #f0b90b;
+            text-align: center;
+            width: 70%;
+            text-transform: capitalize;
+            border: 1px solid #f0b90b;
+        }
+    }
+}

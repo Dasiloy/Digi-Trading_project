@@ -1,0 +1,31 @@
+.bodyIcon {
+    background: #323a47;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    min-height: 89px;
+    display: flex;
+    align-items: center;
+}
+
+.cardFooter {
+    background: #606673;
+    color: #cccccc;
+    font-size: 0.92rem;
+    width: 100%;
+    min-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    & .yellow {
+        color: #f0b90b;
+        margin-left: auto;
+        text-align: right;
+    }
+    & .white {
+        color: #cccccc;
+        text-align: right;
+        margin-left: auto;
+    }
+}

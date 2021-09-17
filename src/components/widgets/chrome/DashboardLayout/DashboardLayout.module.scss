@@ -1,0 +1,16 @@
+.content {
+    width: 100%;
+    min-height: 500px;
+    background: linear-gradient(
+        180deg,
+        #191c22 0%,
+        rgba(25, 28, 34, 0) 100%
+    );
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        padding: 5px;
+    }
+}

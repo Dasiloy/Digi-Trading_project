@@ -1,0 +1,346 @@
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.end {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+    }
+}
+
+.refresh {
+    margin-left: 12px;
+    font-size: 2.4rem;
+}
+
+.animateRefresh {
+    margin-left: 12px;
+    font-size: 2.4rem;
+    animation: animate-preloader 1s linear 2;
+}
+.flexItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #323a47;
+    border-radius: 20px;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.settings1 {
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.settings1 p {
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.flex {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.settings1 svg {
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+.settings1 svg {
+    fill: #b6b9bf !important;
+}
+
+.settings2 svg {
+    fill: rgb(255, 255, 255) !important;
+    font-size: 20px;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggleOn {
+    display: block;
+}
+
+.settings2 {
+    background: #f0b90b;
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flexItem .flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+}
+
+.flexItem .flex2 p {
+    font-size: 1.2;
+    font-weight: 500;
+    color: #f0b90b80;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.flexItem .flex2 svg {
+    fill: #f0b90b80;
+    font-size: 20px;
+}
+
+.flexContainer {
+    background: #323a47;
+    border-radius: 24px;
+    /* padding-bottom: 5px; */
+    margin-bottom: 0.5rem;
+}
+
+.flexContainer form {
+    border-radius: 100px;
+    padding-left: -8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonActive svg {
+    font-size: 11px;
+    fill: #f0b90b;
+    margin-left: 5px;
+}
+
+.buttonActive {
+    background: #191c22;
+    box-sizing: border-box;
+    color: #ffffff;
+    height: 60px;
+    width: 70px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    margin-right: 7px;
+    /* border:1px solid #F0B90B;  */
+    cursor: pointer;
+    border: 1px solid #f0b90b;
+    /* border: 2px solid rgba(240, 185, 11, 0.75);
+    border-radius: 10px 0px 0px 10px; */
+}
+
+.button {
+    background: #f0b90b;
+    color: #ffffff;
+    height: 60px;
+    width: 70px;
+    font-size: 1rem;
+    margin-right: 7px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: 4px solid #f0b90b;
+    cursor: pointer;
+}
+
+.formWrap {
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.formInput {
+    border: 3px solid rgb(204, 200, 200);
+}
+
+.formInput input {
+    height: 52px;
+    width: 70px;
+    margin-left: auto;
+    outline: none;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #191c22;
+    border: none;
+    color: #ffffff;
+}
+
+.formInput2 {
+    border: 3px solid rgb(204, 200, 200);
+}
+
+.formInput2 input {
+    height: 25px;
+    width: 70px;
+    margin-left: auto;
+    outline: none;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #191c22;
+    border: none;
+    color: #ffffff;
+}
+
+.flex2 svg {
+    cursor: pointer;
+}
+
+.buttonSlippageActive {
+    background: #f0b90b;
+    cursor: pointer;
+}
+
+.buttonSlipage {
+    background: #191c22;
+    cursor: pointer;
+}
+
+.slipButton {
+    height: 30.69642639160156px;
+    width: 35px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 1p.5x;
+    border: 1px solid #f0b90b;
+    outline: none;
+    /* border: 2px solid rgba(240, 185, 11, 0.75);
+    border-radius: 10px 0px 0px 10px; */
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nextBtn {
+    background-color: #15171b;
+    color: #fff;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #f0b90b;
+    outline: none;
+    margin: 15px 0 20px 0;
+    font-size: 1.1rem;
+    transition: all 0.9s;
+}
+
+.nextBtn:hover {
+    background-color: #f0b90b;
+}
+
+@media screen and (max-width: 768px) {
+    .refresh {
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .settings1 p {
+        font-size: 1.4rem;
+    }
+    .settings1 svg {
+        font-size: 1rem;
+    }
+    .settings2 svg {
+        font-size: 30px;
+    }
+    .settings2 {
+        width: 40px;
+        height: 40px;
+        margin: 7px 0;
+    }
+    .flexItem .flex2 p {
+        font-size: 1.3;
+    }
+    .flexItem .flex2 svg {
+        fill: #f0b90b80;
+        font-size: 1.5rem;
+    }
+    .buttonActive {
+        height: 55px;
+        width: 140px;
+        font-size: 1.1rem;
+        border: 2px solid #f0b90b;
+    }
+
+    .button {
+        height: 55px;
+        width: 140px;
+        font-size: 1.1rem;
+    }
+    .buttonActive svg {
+        font-size: 1rem;
+    }
+    .formInput input {
+        height: 47px;
+        width: 140px;
+        margin-left: auto;
+    }
+
+    .formInput2 input {
+        height: 47px;
+        width: 140px;
+        margin-left: auto;
+    }
+    .slipButton {
+        height: 55.69642639160156px;
+        width: 55.81226348876953px;
+        margin-right: 3px;
+        /* border: 2px solid rgba(240, 185, 11, 0.75);
+        border-radius: 10px 0px 0px 10px; */
+    }
+
+    .nextBtn {
+        background-color: transparent;
+        color: #fff;
+        width: 100%;
+        padding: 10px 22px;
+        border-radius: 16px;
+        text-align: center;
+        border: 1px solid #f0b90b;
+        outline: none;
+        margin: 25px 0 20px 0;
+    }
+}

@@ -1,0 +1,16 @@
+.cardHeader {
+    display: flex;
+    min-height: 10px;
+    justify-content: flex-start;
+    align-items: baseline;
+    & .backButton {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.flat {
+    margin-bottom: 0 !important;
+}

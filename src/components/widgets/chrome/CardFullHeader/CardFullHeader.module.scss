@@ -1,0 +1,27 @@
+.cardHeader {
+    display: flex;
+    min-height: 10px;
+    justify-content: flex-start;
+    align-items: baseline;
+    & .backButton {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #fff;
+    }
+    & .painted {
+        color: #f8d12f;
+        font-size: 0.8rem;
+        display: block;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+
+.flat {
+    margin-bottom: 0 !important;
+}
+
+.span {
+    font-size: 1.3rem;
+}

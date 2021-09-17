@@ -1,0 +1,51 @@
+.button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-cta {
+    background-color: #E1AD07;
+    height: 50%;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.secondary-cta {
+    background-color: #E1AD0775;
+    height: 50%;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.tertiary-cta {
+    border: solid 1px #E1AD07;
+    color: white;
+    height: 50%;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.link-cta {
+    color: white;
+    text-decoration: none;
+}
+
+.link-cta:hover {
+    color: grey;
+}
+
+.table-tab-sm-cta,
+.table-tab-lg-cta {
+    align-self: center;
+    background-color: #676767;
+    border-radius: 10px;
+    height: 50%;
+    margin: 10px;
+    width: 100%;
+}
+
+.table-tab-active {
+    background-color: #D0D0D0;
+    color: #323233;
+}

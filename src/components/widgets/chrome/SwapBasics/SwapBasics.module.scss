@@ -1,0 +1,146 @@
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.flexEnd {
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    min-height: 30px;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 30px;
+    align-items: center;
+}
+
+.flexSpread {
+    display: flex;
+    justify-content: space-around;
+    min-height: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.yellow {
+    color: #e1ad07;
+}
+
+.body {
+    font-size: 0.89rem;
+    color: #b6b9bf;
+
+    & .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        min-height: 30px;
+        & .single {
+            display: flex;
+            min-height: 30px;
+            align-items: center;
+            & div {
+                margin-bottom: 7px;
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+.xchangeIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .ic1 {
+        transform: rotate(90deg);
+    }
+    & .ic2 {
+        transform: rotate(-90deg);
+    }
+}
+
+.adjust {
+    margin-top: 11px;
+    color: #b6b9bf;
+    font-size: 0.9rem;
+}
+
+.refresh {
+    margin-left: 12px;
+    font-size: 2.4rem;
+}
+
+.end {
+    margin-left: auto;
+    button {
+        display: block;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.btn {
+    background: #e1ad07;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.plus {
+    margin: auto;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #b99212;
+}
+
+.animateRefresh {
+    margin-left: 12px;
+    font-size: 2.4rem;
+    animation: animate-preloader 1s linear 2;
+}
+
+@media screen and (max-width: 768px) {
+    .refresh {
+        font-size: 1rem;
+    }
+    .refresh {
+        margin-left: 2px;
+    }
+    .adjust {
+        margin-top: 2px;
+    }
+}
